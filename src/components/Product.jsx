@@ -60,6 +60,7 @@ const Product = () => {
     </div>
 
     {/* ProductDetails for small device */}
+    {/*Connectivity & Storage*/}
 
     <div className="rounded-md border-0 border-gray-200 p-0 lg:border lg:px-7 lg:py-6">
         <div className="mb-4">
@@ -90,18 +91,44 @@ const Product = () => {
 
     </div>
 
+    {/*Color*/}
+
     <div className='mb-4'>
-        <h5 className="mb-1 text-[10px] font-bold uppercase text-gray-700 xs:mb-2 lg:font-normal"> Color : <b>Silver</b></h5>
+        <h5 className="mb-1 flex text-[10px] font-bold uppercase text-gray-700 lg:font-normal"> Color : <b>Silver</b></h5>
         <div className="mb-5 grid grid-cols-[repeat(auto-fill,50px)] justify-between gap-y-1 gap-x-2 xxs:gap-y-2 xs:grid-cols-[repeat(auto-fill,26px)] xs:gap-x-4 xs:gap-y-3 sm:gap-x-5">
             <div className="inline-block">
                 <div className="h-[50px] w-[50px] xs:h-[26px] xs:w-[26px]">
-                    <a herf='#'className="w-full h-full flex items-center justify-center cursor-pointer block border-gray-700 lg:border-gray-500 rounded-full relative inline p-2 xs:p-0"> </a>
+                    <a herf='#'className="w-full h-full flex items-center justify-center cursor-pointer block border-gray-700 lg:border-gray-500 rounded-full relative inline p-2 xs:p-0">
+                        <div className="flex h-full w-full items-center justify-center rounded-full sm:top-3.5  ring-1 ring-gray-700 ring-offset-2 bg-[#f9cb9c]">
+
+                        </div> 
+                        </a>
                 </div>
             </div>
-            <div className="inline-block"></div>
-            <div className="inline-block"></div>
+            <div className="inline-block">
+            <div className="h-[50px] w-[50px] xs:h-[26px] xs:w-[26px]">
+                    <a herf='#'className="w-full h-full flex items-center justify-center cursor-pointer block border-gray-700 lg:border-gray-500 rounded-full relative inline p-2 xs:p-0">
+                        <div className="flex h-full w-full items-center justify-center rounded-full sm:top-3.5  ring-1 ring-gray-700 ring-offset-2 bg-[#efefef]">
+
+                        </div> 
+                        </a>
+                </div>
+            </div>
+            <div className="inline-block">
+            <div className="h-[50px] w-[50px] xs:h-[26px] xs:w-[26px]">
+                    <a herf='#'className="w-full h-full flex items-center justify-center cursor-pointer block border-gray-700 lg:border-gray-500 rounded-full relative inline p-2 xs:p-0">
+                        <div className="flex h-full w-full items-center justify-center rounded-full sm:top-3.5  ring-1 ring-gray-700 ring-offset-2 bg-[#434343] ">
+
+                        </div> 
+                        </a>
+                </div>
+            </div>
         </div>
     </div>
+
+    {/*Condition*/}
+
+
        
 
 
