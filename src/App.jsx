@@ -1,3 +1,4 @@
+import Product from './components/Product'
 import TopBar from './components/TopBar'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
     <TopBar/>
+    <Product/>
       
     </>
   )
