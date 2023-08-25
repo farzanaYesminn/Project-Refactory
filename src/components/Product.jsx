@@ -127,6 +127,9 @@ const Product = () => {
     </div>
 
     {/*Condition*/}
+    <div>
+        
+    </div>
 
 
        
