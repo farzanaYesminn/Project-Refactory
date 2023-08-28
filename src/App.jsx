@@ -1,4 +1,5 @@
-import Product from './components/Product'
+import ProductLG from './components/ProductLG'
+import ProductSM from './components/ProductSM'
 import TopBar from './components/TopBar'
 
 function App() {
@@ -6,8 +7,8 @@ function App() {
   return (
     <>
     <TopBar/>
-    <Product/>
-      
+    <ProductSM/>
+    <ProductLG/>      
     </>
   )
 }
