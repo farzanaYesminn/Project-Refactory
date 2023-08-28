@@ -14,7 +14,7 @@ import { FaCcDiscover,
 const ProductSM = () => {
   return (
    <> 
-   <div className='grid grid-cols-1 gap-3 sm:gap-4 lg:grid-cols-2 lg:gap-6 lg:hidden '>
+   <div className='grid grid-cols-1 gap-3 sm:gap-4 lg:hidden '>
     <div className="relative select-none px-5 py-3 text-center sm:px-8 sm:py-4 lg:px-6 lg:py-10">
 
         {/* Title for small device */}
