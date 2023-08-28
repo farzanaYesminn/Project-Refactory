@@ -14,7 +14,7 @@ import { FaCcDiscover,
 const ProductSM = () => {
   return (
    <> 
-   <div className='grid grid-cols-1 gap-3 sm:gap-4 lg:hidden '>
+   <div className='grid grid-cols-1 gap-3 sm:gap-4 md:hidden lg:hidden '>
     <div className="relative select-none px-5 py-3 text-center sm:px-8 sm:py-4 lg:px-6 lg:py-10">
 
         {/* Title for small device */}
@@ -68,7 +68,7 @@ const ProductSM = () => {
                 </div>
         </div>
 
-            {/* ProductDetails for small device */}
+           
             {/* Connectivity */}
         <div className="rounded-md border-0 border-gray-200 p-0 lg:border lg:px-7 lg:py-6">
             <div className="mb-4">
@@ -217,7 +217,7 @@ const ProductSM = () => {
                 </div>
             </div>
         </div>
-        <button buttonbutton>
+        <button >
             Faster delivery available - August 29 (+$63.00) 
         </button>
 
